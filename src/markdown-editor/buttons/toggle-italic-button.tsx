@@ -1,6 +1,5 @@
 import { useActive, useCommands } from '@remirror/react'
 import React, { useCallback } from 'react'
-import { FiItalic } from 'react-icons/fi'
 import { ItalicExtension } from 'remirror/extensions'
 import { BaseButton } from './base-button.js'
 
@@ -18,7 +17,6 @@ export const ToggleItalicButton = () => {
 
   return (
     <BaseButton onClick={handleSelect} active={active} enabled={enabled}>
-      <FiItalic />
     </BaseButton>
   )
 }

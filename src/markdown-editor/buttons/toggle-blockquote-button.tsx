@@ -1,6 +1,5 @@
 import { useActive, useCommands } from '@remirror/react'
 import React, { useCallback } from 'react'
-import { BsBlockquoteLeft } from 'react-icons/bs'
 import { BaseButton } from './base-button.js'
 
 export const ToggleBlockQuoteButton = () => {
@@ -17,7 +16,6 @@ export const ToggleBlockQuoteButton = () => {
 
   return (
     <BaseButton active={active} enabled={enabled} onClick={handleSelect}>
-      <BsBlockquoteLeft />
     </BaseButton>
   )
 }

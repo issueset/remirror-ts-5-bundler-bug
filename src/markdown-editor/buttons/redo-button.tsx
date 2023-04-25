@@ -1,6 +1,5 @@
 import { useCommands, useHelpers } from '@remirror/react'
 import React, { useCallback } from 'react'
-import { FaRedo } from 'react-icons/fa'
 import { HistoryExtension } from 'remirror/extensions'
 import { BaseButton } from './base-button.js'
 
@@ -18,7 +17,6 @@ export const RedoButton = () => {
 
   return (
     <BaseButton onClick={handleSelect} enabled={enabled} active={false}>
-      <FaRedo />
     </BaseButton>
   )
 }

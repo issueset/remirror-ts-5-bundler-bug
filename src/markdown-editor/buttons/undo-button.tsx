@@ -1,6 +1,5 @@
 import { useCommands, useHelpers } from '@remirror/react'
 import React, { useCallback } from 'react'
-import { FaUndo } from 'react-icons/fa'
 import { HistoryExtension } from 'remirror/extensions'
 import { BaseButton } from './base-button.js'
 
@@ -18,7 +17,6 @@ export const UndoButton = () => {
 
   return (
     <BaseButton onClick={handleSelect} enabled={true} active={false}>
-      <FaUndo />
     </BaseButton>
   )
 }

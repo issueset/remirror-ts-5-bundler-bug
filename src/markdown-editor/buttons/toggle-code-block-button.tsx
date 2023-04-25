@@ -1,6 +1,5 @@
 import { useActive, useCommands } from '@remirror/react'
 import React, { useCallback } from 'react'
-import { BiCodeCurly } from 'react-icons/bi'
 import { CodeBlockAttributes, CodeBlockExtension } from 'remirror/extensions'
 import { BaseButton } from './base-button.js'
 
@@ -22,7 +21,6 @@ export const ToggleCodeBlockButton = (props: ToggleCodeBlockButtonProps) => {
 
   return (
     <BaseButton active={active} enabled={enabled} onClick={handleSelect}>
-      <BiCodeCurly />
     </BaseButton>
   )
 }

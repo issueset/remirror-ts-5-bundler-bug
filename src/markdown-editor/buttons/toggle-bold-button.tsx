@@ -1,6 +1,5 @@
 import { useActive, useCommands } from '@remirror/react'
 import React, { useCallback } from 'react'
-import { FiBold } from 'react-icons/fi'
 import { BoldExtension } from 'remirror/extensions'
 import { BaseButton } from './base-button.js'
 
@@ -18,7 +17,6 @@ export const ToggleBoldButton = () => {
 
   return (
     <BaseButton active={active} enabled={enabled} onClick={handleSelect}>
-      <FiBold />
     </BaseButton>
   )
 }
